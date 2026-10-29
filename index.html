@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DND URL</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="navbar">
+
+        <a href="#home" class="brand" aria-label="URL Guard home">
+            <span class="URL">DND URL</span>
+        </a>
+
+    </header>
+
+    <section class="hero" id="home">
+
+        <div class="hero-layout">
+            <h1 class="h1">Think Before <br> You Click.</h1>
+            <p class="hero-description">Check if Any URL Address is Fake Or Real....!!</p>
+        </div>
+
+        <form class="input-row" id="scanForm">
+
+            <span class="link-icon" aria-hidden="true">↗</span>
+
+            <input type="text" id="urlInput" placeholder="https://example.com" autocomplete="url" autocapitalize="none" spellcheck="false" aria-describedby="scannerPrivacy" required>
+
+            <button id="scanButton" type="submit">Scan URL</button>
+        </form>
+
+        <div class="counter">
+
+            <div class="counter1">
+                <span class="counter-text-1">1,02,503</span> <br>
+                <span class="counter-text-2">Users are targeted by Fake URL's.</span>
+            </div>
+
+            <div class="counter2">
+                <span class="counter-text-1">23,67,167</span> <br>
+                <span class="counter-text-2">Fake URL's are been generated.</span>
+            </div>
+
+        </div>
+
+        <section id="result" class="result" aria-live="polite" aria-atomic="true">
+
+            <div class="main-result-bot">
+                <div class="bot-1"></div>
+                <div class="bot-2"></div>
+                <div class="bot-3"></div>
+            </div>
+
+            <div id="resultTitle" class="result-title" ></div>
+
+        </section>
+
+    </section>
+
+</body>
+</html>
